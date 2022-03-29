@@ -79,6 +79,7 @@ public class VivinoSearchPageSteps {
 
     @Then("user verifies whether results contains searched keyword")
     public void verifyResults() throws ClassNotFoundException {
+        /* Using relection api to check if any field contains Search Keyword*/
         Class clazz = Class.forName("com.vivino.acceptance.datamodel.SearchPageDataModel");
         Field[] fields = clazz.getDeclaredFields();
         runtimeData.getSearchedData().stream().forEach(result -> {
