@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.vivino.acceptance.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 105.578 s <<< FAILURE! - in com.vivino.acceptance.runners.TestRunner
+com.vivino.acceptance.runners.TestRunner.runScenario["Search Vivino page with Keyword '<Search Keyword>'", "Optional[Search Vivino Page]"](3)  Time elapsed: 45.571 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Wine Name Mismatch expected [Cantina Zaccagnini Montepulciano D'Abruzzo (Il Vino Dal Tralcetto Riserva)] but found [Cantina Zaccagnini Montepulciano d'Abruzzo (Il Vino dal Tralcetto Riserva)]
+

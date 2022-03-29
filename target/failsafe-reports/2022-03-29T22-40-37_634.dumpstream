@@ -1,0 +1,4 @@
+# Created at 2022-03-29T22:40:49.014
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Sample_Projects\vivino-sample-tests\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

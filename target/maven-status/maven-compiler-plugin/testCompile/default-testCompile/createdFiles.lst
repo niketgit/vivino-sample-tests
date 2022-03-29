@@ -1,0 +1,12 @@
+com\vivino\acceptance\RuntimeData.class
+com\vivino\acceptance\steps\VivinoSearchPageSteps.class
+com\vivino\acceptance\datamodel\SearchPageDataModel.class
+com\vivino\acceptance\Hooks.class
+com\vivino\acceptance\driver\SharedDriver$1.class
+com\vivino\acceptance\pages\WinePage.class
+com\vivino\acceptance\config\FrameworkProperties.class
+com\vivino\acceptance\datamodel\WinePageDataModel.class
+com\vivino\acceptance\pages\SearchPage.class
+com\vivino\acceptance\driver\SharedDriver.class
+com\vivino\acceptance\AbstractTestBase.class
+com\vivino\acceptance\runners\TestRunner.class

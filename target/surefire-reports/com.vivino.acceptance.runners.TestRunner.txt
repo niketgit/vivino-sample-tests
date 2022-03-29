@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.vivino.acceptance.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.847 sec <<< FAILURE!
+runScenario(com.vivino.acceptance.runners.TestRunner)  Time elapsed: 18.014 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Wine Name Mismatch expected [Cantina Zaccagnini Montepulciano D'Abruzzo (Il Vino Dal Tralcetto Riserva)] but found [Cantina Zaccagnini Montepulciano d'Abruzzo (Il Vino dal Tralcetto Riserva)]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.vivino.acceptance.steps.VivinoSearchPageSteps.matchWineAttributesWithSearch(VivinoSearchPageSteps.java:134)
+	at ✽.user validates attributes matches with search results(file:///F:/Sample_Projects/vivino-sample-tests/src/test/resources/features/vivino-search-feature.feature:20)
+

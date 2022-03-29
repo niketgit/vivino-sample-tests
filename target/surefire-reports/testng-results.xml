@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.vivino.acceptance.runners.TestRunner" duration-ms="82593" started-at="2022-03-29T22:29:06 IST" finished-at="2022-03-29T22:30:28 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.vivino.acceptance.runners.TestRunner@4d50efb8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="82593" started-at="2022-03-29T22:29:06 IST" finished-at="2022-03-29T22:30:28 IST">
+      <class name="com.vivino.acceptance.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.vivino.acceptance.runners.TestRunner@4d50efb8]" name="setUpClass" is-config="true" duration-ms="966" started-at="2022-03-29T22:29:06 IST" finished-at="2022-03-29T22:29:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69a73867]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.vivino.acceptance.runners.TestRunner@4d50efb8]" name="runScenario" duration-ms="50511" started-at="2022-03-29T22:29:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-29T22:29:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Vivino page with Keyword 'Wine'"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search Vivino Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.vivino.acceptance.runners.TestRunner@4d50efb8]" name="runScenario" duration-ms="12523" started-at="2022-03-29T22:29:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-29T22:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Vivino page with Keyword 'Vino'"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search Vivino Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.vivino.acceptance.runners.TestRunner@4d50efb8]" name="runScenario" duration-ms="18010" started-at="2022-03-29T22:30:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-29T22:30:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Vivino page with Keyword '<Search Keyword>'"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search Vivino Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Wine Name Mismatch expected [Cantina Zaccagnini Montepulciano D'Abruzzo (Il Vino Dal Tralcetto Riserva)] but found [Cantina Zaccagnini Montepulciano d'Abruzzo (Il Vino dal Tralcetto Riserva)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Wine Name Mismatch expected [Cantina Zaccagnini Montepulciano D'Abruzzo (Il Vino Dal Tralcetto Riserva)] but found [Cantina Zaccagnini Montepulciano d'Abruzzo (Il Vino dal Tralcetto Riserva)]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.vivino.acceptance.steps.VivinoSearchPageSteps.matchWineAttributesWithSearch(VivinoSearchPageSteps.java:134)
+at ✽.user validates attributes matches with search results(file:///F:/Sample_Projects/vivino-sample-tests/src/test/resources/features/vivino-search-feature.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.vivino.acceptance.runners.TestRunner@4d50efb8]" name="tearDownClass" is-config="true" duration-ms="515" started-at="2022-03-29T22:30:28 IST" finished-at="2022-03-29T22:30:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.vivino.acceptance.runners.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.vivino.acceptance.runners.TestRunner -->
+</testng-results>
